@@ -1,0 +1,22 @@
+[book]
+title = "RustyWarfare 开发者文档"
+authors = ["RustyWarfare Team"]
+language = "zh"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/your-org/rusty_warfare"
+edit-url-template = "https://github.com/your-org/rusty_warfare/edit/main/docs/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
