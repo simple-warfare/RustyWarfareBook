@@ -26,14 +26,12 @@ jobs:
           mdbook-version: 'latest'
 
       - name: Build book
-        run: |
-          cd RustyWarfareBook
-          mdbook build
+        run: mdbook build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './RustyWarfareBook/book'
+          path: './book'
 
   deploy:
     environment:
