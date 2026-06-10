@@ -2,7 +2,6 @@
 title = "RustyWarfare 开发者文档"
 authors = ["RustyWarfare Team"]
 language = "zh"
-multilingual = false
 src = "src"
 
 [build]
