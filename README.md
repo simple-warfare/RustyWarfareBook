@@ -26,7 +26,7 @@ mdbook serve
 ## 📖 在线访问
 
 推送到 main 分支后，文档会自动部署到：
-https://your-org.github.io/rusty_warfare/
+https://simple-warfare.github.io/RustyWarfareBook/
 
 ## 🛠️ 构建
 
